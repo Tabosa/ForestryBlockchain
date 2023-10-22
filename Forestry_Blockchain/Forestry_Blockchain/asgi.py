@@ -1,5 +1,5 @@
 """
-ASGI config for ForetryBlockchain project.
+ASGI config for Forestry_Blockchain project.
 
 It exposes the ASGI callable as a module-level variable named ``application``.
 
@@ -11,6 +11,6 @@ import os
 
 from django.core.asgi import get_asgi_application
 
-os.environ.setdefault('DJANGO_SETTINGS_MODULE', 'ForetryBlockchain.settings')
+os.environ.setdefault('DJANGO_SETTINGS_MODULE', 'Forestry_Blockchain.settings')
 
 application = get_asgi_application()
